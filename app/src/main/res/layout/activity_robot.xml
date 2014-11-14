@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/forward_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forward"/>
+    <Button
+        android:id="@+id/reverse_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reverse"/>
+    <Button
+        android:id="@+id/left_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Left"/>
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Right"/>
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"/>
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit"/>
+</LinearLayout>
